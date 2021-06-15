@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Home from './Home';
-import BlogDetails from './BlogDetails';
 import Login from './Login';
 import Register from './Register';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -20,7 +19,6 @@ function App() {
               <Register />
             </Route>
             <Route path='/blog/:id'>
-              <BlogDetails />
             </Route>
           </Switch>
       </div>
